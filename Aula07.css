@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #343838;
+    color: white;
+    padding: 25px;
+}
+
+.Primeiro {
+    text-align: center;
+    background-color: #005f6b;
+    color: white;
+}
+
+.segundo {
+    text-align: center;
+    background-color:#008c9e;
+    color: white;
+}
+
+.lista {
+    list-style: none;
+}
+
+.terceiro {
+    text-align: center;
+    background-color: #343838;
+    padding: 20px;
+}
+
+.quarto {
+    text-align: center;
+    background-color: #343838;
+}
+
+button {
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #00b4cc;
+    color: white;
+}
+ 
+span {
+    color: black;
+    font-size: 20px;
+}
+
+h3 {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+.fim {
+    text-align: center;
+}
