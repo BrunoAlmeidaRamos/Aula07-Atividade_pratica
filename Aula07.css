@@ -7,18 +7,33 @@ header {
     background-color: #343838;
     color: white;
     padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; /*Responsavel por tornar os itens flex e deixar lado a lado*/
+    justify-content: center; /*Organização dos conteudos dentro do Cabeçalho*/
+    gap: 15px; /*Espaço/respiro entre os itens*/
+    align-items: center; /*Alinhamento dos itens*/
+}
+
+header img {
+    width: 70px;
 }
 
 .Primeiro {
+    padding: 100px; /*Preenchimento da sessão*/
     text-align: center;
     background-color: #005f6b;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 .segundo {
     text-align: center;
     background-color:#008c9e;
     color: white;
+    
 }
 
 .lista {
@@ -31,9 +46,17 @@ header {
     padding: 20px;
 }
 
+.terceiro i {
+    font-size: 60px;
+    color: aliceblue;
+}
+
 .quarto {
+    padding: 100px;
     text-align: center;
-    background-color: #343838;
+    background-image: url(IMG/coffee-break-1291381_1280.jpg); /*Caminho da imagem*/
+    background-position: center; /*Posição da imagem*/
+    background-size: cover; /*Preenchimento total da imagem*/
 }
 
 button {
