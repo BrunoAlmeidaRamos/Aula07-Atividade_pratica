@@ -53,19 +53,28 @@ header img {
 
 .quarto {
     padding: 100px;
-    text-align: center;
     background-image: url(IMG/coffee-break-1291381_1280.jpg); /*Caminho da imagem*/
     background-position: center; /*Posição da imagem*/
     background-size: cover; /*Preenchimento total da imagem*/
+    display: flex;
+    justify-content: center;
 }
 
 button {
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 10px; /*Arredondamento do botão*/
+    background-color: rgba(128, 128, 128, 0.507);
+    color: white;
 }
 
 footer {
     background-color: #00b4cc;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
  
 span {
@@ -81,7 +90,3 @@ h2 {
     color: black;
 }
 
-.fim {
-    text-align: center;
-    background-color: #343838;
-}
